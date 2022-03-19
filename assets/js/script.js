@@ -7,7 +7,7 @@ const textoFoto = document.querySelector("h2");
 botao.addEventListener("click", () => {
   if (botao.value == 1) {
     imagem.src = "./img/hulk.jpg";
-    textoFoto.innerHTML = "Bruce ficou com raiva e virou o Hulk";
+    textoFoto.innerHTML = "Bruce pistola virou o Hulk";
     botao.setAttribute("value", 2);
   } else if (botao.value == 2) {
     imagem.src = "./img/hulkEsmaga.jpg";
