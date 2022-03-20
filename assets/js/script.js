@@ -11,15 +11,15 @@ botao.addEventListener("click", () => {
     botao.setAttribute("value", 2);
   } else if (botao.value == 2) {
     imagem.src = "./img/hulkEsmaga.jpg";
-    textoFoto.innerHTML = "HULK ESMAGA!!!";
+    textoFoto.innerHTML = "HULK PUTASSO ESMAGA!!!";
     botao.setAttribute("value", 3);
   } else if (botao.value == 3) {
     imagem.src = "./img/hulkfeliz.jpg";
-    textoFoto.innerHTML = "Hulk está feliz!";
+    textoFoto.innerHTML = "Hulk relaxou e está feliz!";
     botao.setAttribute("value", 4);
   } else {
     imagem.src = "./img/bruce.jpg";
-    textoFoto.innerHTML = "Bruce Banner está de boa";
+    textoFoto.innerHTML = "Bruce calmo está de boa";
     botao.setAttribute("value", 1);
   }
 });
